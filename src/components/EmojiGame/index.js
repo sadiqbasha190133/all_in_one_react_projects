@@ -62,7 +62,7 @@ const initialEmojiList = [
     },
     {
         id:uuidv4(),
-        emojiName:"emoji10",
+        emojiName:"emoji100",
         emojiUrl:"https://images.pngnice.com/download/2102/Happy-Emoji-Transparent-PNG.png",
         isClicked:false
     },
