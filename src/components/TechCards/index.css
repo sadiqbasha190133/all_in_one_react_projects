@@ -1,0 +1,53 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.techCard-title{
+    font-size: 24px;
+    font-family: "Roboto";
+}
+.techCard{
+    height: 200px;
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-top-color: green;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    list-style: none;
+    padding: 15px;
+    margin: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.techCard-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.tech-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    align-self: flex-end;
+}
+
+.techCard-border-orange{
+    border-top-color: orange;
+}
+.techCard-border-green{
+    border-top-color: green;
+    
+}
+.techCard-border-red{
+    border-top-color: red;
+    
+}
+.techCard-border-blue{
+    border-top-color: blue;
+
+}

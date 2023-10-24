@@ -1,0 +1,39 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.project-lst-item{
+    list-style: none;
+    padding: 15px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-image-size{
+    height: 77px;
+    width: 77px;
+    border-radius: 10px;
+}
+
+.project-item-text{
+    height: 20px;
+    font-family: "Bree Serif";
+    font-weight: 500;
+    margin: 0px;
+}
+
+
+@media screen and (min-width: 768px){
+    .project-lst-item{
+        width: 250;
+        background-color: white;
+        border-radius: 15px;
+        margin: 15px;
+    }
+}

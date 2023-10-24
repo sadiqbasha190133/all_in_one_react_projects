@@ -1,0 +1,34 @@
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.emojiCard{
+    list-style: none;
+    border-width: 2px;
+    border-color: #ffffff36;
+    background-color: #ffffff33;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.emoji-size{
+    height: 50px;
+    width: 50px;
+}
+
+
+@media screen and (min-width:768px){
+    .emoji-size{
+        height: 65px;
+        width: 65px;
+    }
+    
+}

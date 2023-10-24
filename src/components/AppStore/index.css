@@ -1,0 +1,88 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+*{
+    box-sizing: border-box;
+}
+.body{
+    margin: 0px;
+}
+
+.bg-container{
+    background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+    height: 150vh;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.title-text{
+    margin-top: 15px;
+    font-family: "Bree Serif";
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.search-input{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    height: 27px;
+    width: 60%;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    padding: 5px;
+
+}
+
+.tab-lst-continer-1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+}
+
+.tab-lst-continer-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.project-items-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.search-bar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search-icon-size{
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (min-width:768px){
+    .title-text{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .search-input{
+        width: 20%;
+        height: 30px;
+        font-size: 20px;
+        padding: 15px;
+    }
+    .tab-lst-continer-2{
+       width: 50%;
+       margin: 0px;
+       text-align: center;
+    }
+    
+}

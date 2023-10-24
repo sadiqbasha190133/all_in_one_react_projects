@@ -1,0 +1,58 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.list-item{
+    border-width: 1px;
+    border-style: solid;
+    list-style: none;
+    border-color: #b5b7c4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 7px;
+    outline: none;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.flex-container-titleDate{
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    height: 30px;
+    width: 30px;
+}
+.heading-name{
+    margin-top: 0px;
+    font-weight: 600;
+    color: #171f46;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.appointment-givenDate{
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-top: 0px;
+    color: #b5b7c4;
+}
+
+
+@media screen and (min-width:768px) {
+    .list-item{
+        width: 250px;
+        border-radius: 10px;
+        outline: none;
+        padding: 10px;
+        margin-right: 15px;
+    }
+    .heading-name{
+        font-size: 23px;
+    }
+    .appointment-givenDate{
+        font-size: 19px;
+    }
+    
+}

@@ -1,0 +1,54 @@
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.navbar-container{
+    background-color: #ffffff33;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 17px;
+    align-self: flex-start;
+}
+
+.flex-brand-left-container{
+    justify-content: flex-start;
+}
+
+.brand-image{
+    height: 30px;
+    width: 30px;
+}
+
+.navbar-headings{
+    color: white;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-right: 10px;
+
+}
+
+.navbar-score-flex-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navbar-brand-flex-container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.hide-scores{
+    display: none;
+}
+
+.aligning3{
+    display: flex;
+    justify-content: flex-start;
+}
